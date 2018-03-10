@@ -1,8 +1,5 @@
 # Readme for bundlescraper	
 
-## ToDo
-	- Weird bug with "product_names" (line 25) *something to do with the "for"*
-
 ## Install virtualenv
 	sudo apt-get install virtualenv
 
