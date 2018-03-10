@@ -14,7 +14,7 @@ soup = BeautifulSoup(resp.text, 'html.parser')
 # Bundle Tiers (.dd-game-row)
 tiers = soup.select(".dd-game-row")
 
-for tier in teirs:
+for tier in tiers:
 	# Only for sections that have a headline
 	if tier.select(".dd-header-headlines"):
 		# Grab tier name (and price)
