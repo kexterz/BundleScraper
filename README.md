@@ -1,26 +1,17 @@
 # Readme for bundlescraper	
 
-
 ## ToDo
 	- Weird bug with "product_names" (line 25) *something to do with the "for"*
 
-
-
 ## Install virtualenv
 	sudo apt-get install virtualenv
-
-
 
 ## Set up dev environment
 	virtual -p python3 venv
 
 
-
-
 ## Activate it
 	source venv/bin/activate
-
-
 
 
 
@@ -32,11 +23,8 @@
 
 
 
-
-
-
- 
-         _              _     _      _            _            _            _            _         
+<!--
+          _              _    _       _            _            _            _           _         
         /\_\           /\ \ /_/\    /\ \         /\ \         /\ \         /\ \        /\ \        
        / / /  _       /  \ \\ \ \   \ \_\        \_\ \       /  \ \       /  \ \      /  \ \       
       / / /  /\_\    / /\ \ \\ \ \__/ / /        /\__ \     / /\ \ \     / /\ \ \  __/ /\ \ \      
@@ -48,3 +36,5 @@
 / / /    \ \ \ / / /_______\ / / /    /_/ //_/ /      / / /_______\/ / /  \ \ \         \ \___\/ / 
 \/_/      \_\_\\/__________/ \/_/     \_\/ \_\/       \/__________/\/_/    \_\/          \/___/_/  
                                                                                                    
+
+ -->

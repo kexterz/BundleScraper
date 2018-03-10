@@ -21,14 +21,14 @@ for tier in tiers:
 		tiername = tier.select(".dd-header-headlines")[0].text.strip()
 		
 		# Grab tier product names
-		product_names = tier.select(".dd-image-box-caption"
+		product_names = tier.select(".dd-image-box-caption")
 		product_names = [prodname.text.strip() for prodname in product_names]
 		
 		# Add one product tier to datastructure
 		tier_dict[tiername] = { "products": product_names }
 
 ## Common access pattern	 
-for tiername, tierinfo in tier_dict.items():
+	for tiername, tierinfo in tier_dict.items():
 	  print(tiername)	
 	  print("#########################")
 	  print("\n".join(tierinfo['products']))
